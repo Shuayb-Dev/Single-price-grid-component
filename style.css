@@ -41,3 +41,11 @@ body {
   display: flex;
   flex-direction: row;
 }
+
+.subscriptionPrice {
+  background-color: hsl(179, 61%, 44%);
+}
+
+.infoBoxTwo {
+  background-color: hsl(179, 47%, 52%);
+}
