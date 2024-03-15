@@ -1,0 +1,43 @@
+body {
+  min-height: 100vh;
+  display: flex; /* it works with grid too  */
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: hsl(206, 47%, 93%);
+}
+
+.priceContainer {
+  height: auto;
+  width: auto;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.infoBoxOne {
+  background-color: white;
+  padding: 0px 50px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.infoBoxOne h1 {
+  font-family: "Karla", sans-serif;
+  color: hsl(179, 62%, 43%);
+  font-weight: 700;
+}
+
+.infoBoxOne h2 {
+  font-family: "Karla", sans-serif;
+  color: hsl(71, 73%, 54%);
+  font-weight: 700;
+}
+
+.infoBoxOne p {
+  font-family: "Karla", sans-serif;
+  color: hsl(218, 22%, 67%);
+}
+
+.informationContainer {
+  display: flex;
+  flex-direction: row;
+}
