@@ -12,12 +12,13 @@ body {
   width: auto;
   background-color: white;
   border-radius: 20px;
+  padding-top: 10px;
 }
 
 .infoBoxOne {
   background-color: white;
   padding: 0px 50px;
-  border-radius: 20px 20px 0px 0px;
+  border-radius: 10px 10px 0px 0px;
 }
 
 .infoBoxOne h1 {
@@ -44,8 +45,58 @@ body {
 
 .subscriptionPrice {
   background-color: hsl(179, 61%, 44%);
+  width: 50%;
+  border-radius: 0px 0px 0px 10px;
+  padding-bottom: 10px;
+}
+
+.subscriptionPrice p,
+h3,
+button {
+  position: relative;
+  left: 40px;
+  top: -2px;
+  font-family: "Karla", sans-serif;
+  color: white;
+}
+
+#spanOne {
+  font-size: 1.8rem;
+}
+
+#spanTwo {
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+
+.subscriptionPrice button {
+  background-color: hsl(71, 73%, 54%);
+  border-style: none;
+  width: 200px;
+  height: 50px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-radius: 8px;
 }
 
 .infoBoxTwo {
   background-color: hsl(179, 47%, 52%);
+  width: 50%;
+  border-radius: 0px 0px 10px 0px;
+}
+
+.infoBoxTwo h3 {
+  position: relative;
+  top: 0px;
+}
+
+.infoBoxTwo p {
+  font-family: "Karla", sans-serif;
+  color: white;
+  font-weight: 400;
+  position: relative;
+  left: 30px;
+  top: -10px;
+  font-weight: 300;
+  line-height: 28px;
 }
